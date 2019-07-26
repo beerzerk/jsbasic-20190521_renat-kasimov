@@ -5,5 +5,7 @@
  * @returns {number}
  */
 function sum (m, n) {
-
+    var result = parseInt(m) + parseInt(n); 
+    return result;
 }
+sum ();
