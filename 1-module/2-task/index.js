@@ -12,6 +12,9 @@ function print (text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid (name) {
+    if (name.lenght >= 4 && name != null && name.includes(" ") != true ) {
+        return name  
+        } ;
 }
 
 function sayHello () {
